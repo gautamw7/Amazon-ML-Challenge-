@@ -3,8 +3,8 @@
 **TL;DR**: End‑to‑end baseline for product **price prediction** using product text (`catalog_content`) + engineered features.  
 Pipeline includes **leakage removal**, **unit/value parsing**, **pack detection**, TF‑IDF + SVD embeddings, and an **XGBoost** regressor optimized on **SMAPE**-friendly setup (log target + multiple diagnostics).
 
-## At the end of the Hackathon I got 56.87 SMAPE score on the test data, with the following things been done: Feature Engineering, Data Cleaning, Data Preprocessing, TF-IDF, XGBoost and using only the textual, categorical and numerical data.
-## The Repo serves the purpose to logging for further iteration of the solution as pratice and curiosty. Thanks for checking it !!
+## At the end of the Hackathon I got 56.87 SMAPE on the test data, with the following things been done: Feature Engineering, Data Cleaning, Data Preprocessing, TF-IDF, XGBoost and using only the textual, categorical and numerical data. Preivously before XGBoost GBR was used, with acheiving 59.69 SMAPE on the test. 
+## The Repo serves the purpose to logging for further iteration of the solution as pratice and curiosty. Thanks for checking it !! Considering I haven't used visual data.
 
 ---
 
